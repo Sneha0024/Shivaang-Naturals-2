@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+    <!-- <img src="image/shape-3.png" class="wave" alt=""> -->
+    <a href="index.html" class="logo">SHIVAANG NATURALS</a>
+
+    <nav class="navbar">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT US</a>
+        <a href="review.html">SUBSCRIPTIONS</a>
+        <a href="contact.html">CONTACT US</a>
+        <a href="blog.html">BLOG</a>
+        <a href="shop.html">SHOP</a>
+    </nav>
+
+    <div class="icons">
+      <button class="login">LOGIN</button>  
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="image/cart-1.jpg" alt="">
+            <div class="content">
+                <h3>organic food</h3>
+                <span class="quantity">1</span>
+                <span class="multiply">x</span>
+                <span class="price">$18.99</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="image/cart-2.jpg" alt="">
+            <div class="content">
+                <h3>organic food</h3>
+                <span class="quantity">1</span>
+                <span class="multiply">x</span>
+                <span class="price">$18.99</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="image/cart-3.jpg" alt="">
+            <div class="content">
+                <h3>organic food</h3>
+                <span class="quantity">1</span>
+                <span class="multiply">x</span>
+                <span class="price">$18.99</span>
+            </div>
+        </div>
+        <h3 class="total"> total : <span>56.97</span> </h3>
+        <a href="#" class="btn">checkout cart</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>login form</h3>
+        <input type="email" placeholder="enter your email" class="box">
+        <input type="password" placeholder="enter your password" class="box">
+        <div class="remember">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">remember me</label>
+        </div>
+        <input type="submit" value="login now" class="btn">
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have an account? <a href="#">create one</a></p>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<section class="home">
+
+    <div class="slides-container">
+
+        <div class="slide active">
+            <div class="content">
+                <h3>100%</h3>
+                <h3>Grow your own food...</h3>
+                <span style="font-weight: 700;font-size: 2.7rem;">Naturally...</span>  <br>
+                <a href="#" class="btn" style="color: black;background-color: rgb(248, 226, 28);
+                border-radius: 39px;
+                font-weight: bolder;
+              ">VIEW SUBSCRIPTION <span>&#8594;</span></a>            </div>
+              
+            <div class="image">
+                <img src="image/home-img-1.png" alt="" style="display: none;">
+            </div>
+        </div>
+
+        
+        
+    </div>
+
+    <div id="next-slide"  onclick="next()">
+    </div>
+    <div id="prev-slide" onclick="next()"></div>
+
+</section>
+<!-- <section class="home2">
+    
+</section> -->
+<section class="about1" id="about1">
+
+    <!-- <h3 class="sub-heading"> about us </h3>
+    <h1 class="heading"> why choose us? </h1> -->
+
+    <div class="row">
+
+        <div class="image">
+            <img src="image/Subs.jpeg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>Inroducing your own Family Farmer,an Ecoligical & Sustainaible Community Farming Initiative.</h3>
+            <a href="#" class="btn" style="background-color: green;color: white;padding: 10px 20px;border-radius: 20px;">Read more</a>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-user"></i>
+                    <span>Professional <br> Farmers</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-leaf"></i>
+                    <span>Organic & <br> eco solutions</span>
+                </div>
+                
+            </div>
+            
+        </div>
+
+    </div>
+
+</section>
+
+<!-- menu section starts  -->
+
+<section class="menu" id="menu"> 
+<div class="slides-container">
+    <div class="slide active">
+    <!-- <h3 class="sub-heading"> our menu </h3> -->
+    <h1 class="heading1" style="text-align: center;color: green;font-size: 3.5em;"> Healthy and Natural </h1>
+<div class="arrow">
+    <img src="Ggoup 59.png" alt="">
+</div>
+<div class="arrow1">
+    <img src="Group 58.png" alt="">
+</div>
+    <div class="box-container">
+
+        <div class="box box-1">
+            <div class="image">
+                <img src="image/1.png" alt="">
+                
+                <!-- <a href="#" ><img src="image/organic.png" alt=""></a> -->
+            </div>
+            <div class="image2"><img src="image/organic.png" alt=""></div>
+            <div class="content">
+                <!-- <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div> -->
+                <h3 style="padding-top: 12px;">Natural Process</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+               
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="image/2.png" alt="">
+                <!-- <a href="#" class="fas fa-heart"></a> -->
+            </div>
+            <div class="image2"><img src="image/healthcare-covid19-coronavirus-hand-hearth.png" alt=""></div>
+            <div class="content">
+                <!-- <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>-->
+                <h3 style="padding-top: 12px;">Improves Immunity</h3> 
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                           </div>
+        </div>
+
+       
+        
+        
+        
+        <div class="box">
+            <div class="image">
+                <img src="image/3.png" alt="">
+                <!-- <a href="#" class="fas fa-heart"></a> -->
+            </div>
+            <div class="image2"><img src="image/biology.png" alt=""></div>
+            <div class="content">
+                <!-- <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div> -->
+                <h3 style="padding-top: 12px;">Biologically Safe</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+               
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+    <div id="next-slide"  onclick="next()">
+    </div>
+    <div id="prev-slide" onclick="next()"></div>
+
+</section>
+
+<!-- menu section ends -->
+ <section class="home3-sub">
+</section> 
+
+<section class="home3">
+    <img src="image/shape-3.png" class="wave" alt="">
+    <!-- <div class="home3-sub"></div> -->
+    <div class="slides-container">
+
+        <div class="slide active">
+            <div class="content">
+           <span style="font-weight: 700;font-size: 2.7rem;color: chartreuse;">A </span><span style="font-weight: 700;font-size: 2.7rem;color: chartreuse;text-transform: lowercase;">basket full of</span>
+                <h3 style="color: white;text-transform: lowercase;">healthy & nutritional
+                </h3>
+                <h3 style="color: white;text-transform: lowercase;">food at your doorstep.</h3>
+                  <br>
+                <a href="#" class="btn" style="color: black;background-color: rgb(248, 226, 28);
+                border-radius: 39px;
+                font-weight: bolder;
+              ">Explore More</a>            </div>
+              
+            <div class="image">
+                <img src="image/Group 144.png" alt="">
+            </div>
+        </div>
+
+        
+        
+    </div>
+    <!-- <img src="image/shape-3.png" class="wave" alt=""> -->
+</section>
+<!-- <section class="banner-container">
+
+    <div class="banner">
+        <img src="image/banner-1.jpg" alt="">
+        <div class="content">
+            <span>limited sales</span>
+            <h3>upto 50% off</h3>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </div>
+
+    <div class="banner">
+        <img src="image/banner-2.jpg" alt="">
+        <div class="content">
+            <span>limited sales</span>
+            <h3>upto 50% off</h3>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </div>
+
+    <div class="banner">
+        <img src="image/banner-3.jpg" alt="">
+        <div class="content">
+            <span>limited sales</span>
+            <h3>upto 50% off</h3>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </div>
+
+</section> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="menu" id="menu"> 
+    <div class="slides-container">
+        <div class="slide active">
+        <!-- <h3 class="sub-heading"> our menu </h3> -->
+        <h1 class="heading1" style="text-align: center;color: green;font-size: 3.5em;"> Subscription Plans </h1>
+    <div class="arrow">
+        <img src="Ggoup 59.png" alt="">
+    </div>
+    <div class="arrow1">
+        <img src="Group 58.png" alt="">
+    </div>
+        <div class="box-container">
+    
+            <div class="box"style="width: 83%;">
+                <div class="image" style="background: green;height: 19rem;">
+                    
+                    <div style="text-align: center;"> <i class="fas fa-leaf" style="color: lightgreen;
+                        height: 60px;
+                        font-size: 46px;"></i></div>
+                    <div style="text-align: center;color: white;font-size: 3rem;
+                    line-height: 5rem;">Green
+                    </div>
+          <div style="color: white;text-align: center;line-height: 5rem;font-size: 2rem;">
+             <span style="font-size: 3rem;font-weight: bold;">&#8377;2700</span> / Month</div>
+                    <!-- <a href="#" ><img src="image/organic.png" alt=""></a> -->
+                </div>
+                
+                <div class="content" style="text-align: center;">
+                 <h3 style="padding-top: 12px;font-size: 2rem;">&gt; 5 kgs to 6 kgs</h3>
+                    <h3 style="font-size: 2rem;">&gt; Once a Week</h3>
+                    <button class="plans" style="background: green;color: white;padding: 6px 11px;border-radius: 17px;">View details</button>
+                   
+                </div>
+            </div>
+    
+            <div class="box"style="width: 83%;">
+                <div class="image" style="background: orange;height: 19rem;">
+                    <div style="text-align: center;"> <i class="fas fa-leaf" style="color: lightgreen;
+                        height: 60px;
+                        font-size: 46px;"></i></div>
+                         <div style="text-align: center;color: white;font-size: 3rem;
+                         line-height: 5rem;">Orange
+                         </div>
+                         <div style="color: white;text-align: center;line-height: 5rem;font-size: 2rem;">
+                            <span style="font-size: 3rem;font-weight: bold;">&#8377;4200</span> / Month</div>
+                    <!-- <a href="#" class="fas fa-heart"></a> -->
+                </div>
+               
+                <div class="content" style="text-align: center;">
+                    <!-- <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>-->
+                    <h3 style="padding-top: 12px;font-size: 2rem;">&gt; 5 kgs to 6 kgs</h3>
+                    <h3 style="font-size: 2rem;">&gt; Once a Week</h3>
+                    <button class="plans" style="background: orange;color: white;padding: 6px 11px;border-radius: 17px;">View details</button>
+                               </div>
+            </div>
+    
+           
+            
+            
+            
+            <div class="box" style="width: 83%;">
+                <div class="image" style="background: blue;height: 19rem;">
+                    <div style="text-align: center;"> <i class="fas fa-leaf" style="color: lightgreen;
+                        height: 60px;
+                        font-size: 46px;"></i></div>
+                         <div style="text-align: center;color: white;font-size: 3rem;
+                         line-height: 5rem;">Blue
+                         </div>
+                         <div style="color: white;text-align: center;line-height: 5rem;font-size: 2rem;">
+                            <span style="font-size: 3rem;font-weight: bold;">&#8377;7500</span> / Month</div>
+                    
+                                       <!-- <a href="#" class="fas fa-heart"></a> -->
+                </div>
+                
+                <div class="content" style="text-align: center;">
+                    <!-- <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div> -->
+                    <h3 style="padding-top: 12px;font-size: 2rem;">&gt; 5 kgs to 6 kgs</h3>
+                    <h3 style="font-size: 2rem;">&gt; Once a Week</h3>
+                    <button class="plans" style="background: blue;color: white;padding: 6px 11px;border-radius: 17px;">View details</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+        <div id="next-slide"  onclick="next()">
+        </div>
+        <div id="prev-slide" onclick="next()"></div>
+    
+    </section>
+    
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="home.html"> <i class="fas fa-arrow-right"></i>Home</a>
+            <a href="shop.html"> <i class="fas fa-arrow-right"></i>About Us</a>
+            <a href="about.html"> <i class="fas fa-arrow-right"></i>Subscriptions</a>
+            <a href="review.html"> <i class="fas fa-arrow-right"></i>Contact Us</a>
+                   </div>
+
+        <div class="box">
+            <h3>Support</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i>Disclaimer</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>Terms & Conditions </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>Privacy Policy </a>
+                    </div>
+
+        <div class="box">
+            <h3>Get in touch</h3>
+            <a href="#"> <i class="fa fa-map-marker"></i> 1460 Keyser Ridge </a>
+            <a href="#"> <i class="fab fa"></i>  Road, Greensboro, </a>
+            <a href="#"> <i class="fab fa"></i> North Carolina 27403. </a>
+                   </div>
+               
+        
+        <div class="box">
+            <h3>Contact</h3>
+            <a href="#"> <i class="fa fa-phone"></i>336-522-7603 </a>
+            <a href="#"> <i class="fa fa-envelope"></i> info@shivaangnaturals.com
+            </a>
+        </div>
+        
+           </div>
+           <hr style="color: white;font-size: 2px;">
+           <section class="credit"> &copy; shivaangnaturals 2021. All Rights Reserved. Design & Developed by Innovins</section>
+</section>
+
+
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom css file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>
