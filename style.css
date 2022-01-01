@@ -24,7 +24,7 @@ section {
 }
 
 .heading {
-  background: url(../image/heading-bg.jpg) no-repeat;
+  background: url(image/heading-bg.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -116,12 +116,12 @@ section {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 2rem 9%;
-  background: url(../image/menu.png) no-repeat;
+  background: url(image/menu.png) no-repeat;
 }
 
 .header .logo {
   font-size: 2rem;
-  /* background: url(../image/logo2.png) no-repeat; */
+  /* background: url(image/logo2.png) no-repeat; */
    font-weight: 600; 
   color: #FFF; 
 }
@@ -395,14 +395,14 @@ section {
 
 .home {
   padding-top: 49.5rem;
-  background: url(../image/Design2\ –\ 2.png) no-repeat;
+  background: url(image/Design2\ –\ 2.png) no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
 }
 .home2 {
   padding-top: 63.5rem;
-  background: url(../image/plans.jpeg) no-repeat;
+  background: url(image/plans.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -410,7 +410,7 @@ section {
 }
 .home3 {
   padding-top: 0.1rem;
-  background: url(../image/Group\ 145.png) no-repeat;
+  background: url(image/Group\ 145.png) no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -425,7 +425,7 @@ section {
 
 .home3-sub{
   padding-top: 0.1rem;
-  background: url(../image/green-sep.png) no-repeat;
+  background: url(image/green-sep.png) no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -517,12 +517,12 @@ section {
 
 .home #prev-slide {
   left: 2rem;
-  background: url(../image/Group\ 58.png) no-repeat;
+  background: url(image/Group\ 58.png) no-repeat;
 }
 
 .home #next-slide {
   right: 2rem;
-  background: url(../image/Ggoup\ 59.png) no-repeat;
+  background: url(image/Ggoup\ 59.png) no-repeat;
   
 }
 
@@ -1137,7 +1137,7 @@ section {
   /* z-index: -1; */
   /* top:-17rem; */
   left: 2rem; 
-  background: url(../image/home-leaf-1.png) no-repeat;
+  background: url(image/home-leaf-1.png) no-repeat;
 
 }
 .home3::before{
@@ -1148,7 +1148,7 @@ section {
   width:21rem;
   /* z-index: -1; */
   top:-17rem; right: 0rem;
-  background: url(../image/leave.png) no-repeat;
+  background: url(image/leave.png) no-repeat;
 }
 .home3::after{
   content: '';
@@ -1158,7 +1158,7 @@ section {
   width:23rem;
   /* z-index: -1; */
   bottom:-16rem; left: -4rem;
-  background: url(../image/Group\ 52.png) no-repeat;
+  background: url(image/Group\ 52.png) no-repeat;
 }
 
 
@@ -1298,7 +1298,7 @@ section {
   z-index: -1;
   /* bottom:-16rem; left: -4rem; */
   right: 29px;
-  background: url(../image/4.png) no-repeat;
+  background: url(image/4.png) no-repeat;
 }
 
 @media (max-width: 991px) {
